@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/starLover/JLChatFramework.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/starLover/JLChat.git", :tag => "v#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,9 +92,9 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "JLChat.framework/Headers/*.{h}"
-  spec.source_files = "Classes/**/*"
+  # spec.source_files = "Classes/**/*"
   # spec.exclude_files = "Classes/Exclude"
-# spec.vendored_frameworks = 'JLChat'
+  spec.vendored_frameworks = 'JLChat.framework'
   # spec.public_header_files = "Classes/**/*.h"
 
 
