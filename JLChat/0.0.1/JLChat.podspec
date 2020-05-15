@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                        This project is provided to the programmers who want to integrate the chatting quickly.
                    DESC
 
-  spec.homepage     = "https://github.com/starLover"
+  spec.homepage     = "https://github.com/starLover/JLChatSpec"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -136,6 +136,19 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  # spec.dependency "AMap2DMap"
+  # spec.dependency "AMapSearch"
+  # spec.dependency "SDWebImage"
+  # spec.dependency "SDWebImageFLPlugin"
+  # spec.dependency "Masonry"
+  # spec.dependency "MJExtension"
+  # spec.dependency "MJRefresh"
+  # spec.dependency "SVProgressHUD"
+  # spec.dependency "GoogleMaps"
+  # spec.dependency "GoogleWebRTC"
+  # spec.dependency "Socket.IO-Client-Swift"
+  spec.dependency "AFNetworking", '~> 3.1.0'
+  # spec.dependency "FMDB"
+
 
 end
