@@ -136,19 +136,19 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "AMap2DMap"
-  # spec.dependency "AMapSearch"
-  # spec.dependency "SDWebImage"
-  # spec.dependency "SDWebImageFLPlugin"
-  # spec.dependency "Masonry"
-  # spec.dependency "MJExtension"
-  # spec.dependency "MJRefresh"
-  # spec.dependency "SVProgressHUD"
-  # spec.dependency "GoogleMaps"
-  # spec.dependency "GoogleWebRTC"
-  # spec.dependency "Socket.IO-Client-Swift"
+  spec.dependency "AMap2DMap"
+  spec.dependency "AMapSearch"
+  spec.dependency "SDWebImage"
+  spec.dependency "FLAnimatedImage"
+  spec.dependency "Masonry"
+  spec.dependency "MJExtension"
+  spec.dependency "MJRefresh"
+  spec.dependency "SVProgressHUD"
+  spec.dependency "GoogleMaps"
+  spec.dependency "GoogleWebRTC"
+  spec.dependency "Socket.IO-Client-Swift"
   spec.dependency "AFNetworking"
-  # spec.dependency "FMDB"
+  spec.dependency "FMDB"
 
 
 end
