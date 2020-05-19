@@ -139,19 +139,19 @@ Pod::Spec.new do |spec|
   # spec.user_target_xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   # spec.static_framework = true
 
-  spec.dependency "AMap2DMap"
-  spec.dependency "AMapSearch"
-  spec.dependency "SDWebImage"
-  spec.dependency "FLAnimatedImage"
-  spec.dependency "Masonry"
-  spec.dependency "MJExtension"
-  spec.dependency "MJRefresh"
-  spec.dependency "SVProgressHUD"
-  spec.dependency "GoogleMaps"
-  spec.dependency "GoogleWebRTC"
-  spec.dependency "Socket.IO-Client-Swift"
-  spec.dependency "AFNetworking"
-  spec.dependency "FMDB"
+  spec.ios.dependency "AMap2DMap"
+  spec.ios.dependency "AMapSearch"
+  spec.ios.dependency "SDWebImage"
+  spec.ios.dependency "FLAnimatedImage"
+  spec.ios.dependency "Masonry"
+  spec.ios.dependency "MJExtension"
+  spec.ios.dependency "MJRefresh"
+  spec.ios.dependency "SVProgressHUD"
+  spec.ios.dependency "GoogleMaps"
+  spec.ios.dependency "GoogleWebRTC"
+  spec.ios.dependency "Socket.IO-Client-Swift"
+  spec.ios.dependency "AFNetworking"
+  spec.ios.dependency "FMDB"
 
 
 end
