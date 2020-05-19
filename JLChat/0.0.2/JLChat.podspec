@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
   # spec.resource  = "JLChat.bundle/*"
   # spec.resources = ['JLChat/*.png']
   spec.resource_bundles = {
-    'JLChat' => ['JLChat.framework/JLChat.bundle/*.png', 'JLChat.framework/JLChat.bundle/*.lproj']
+    'JLChat' => ['JLChat.framework/JLChat.bundle']
   }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
