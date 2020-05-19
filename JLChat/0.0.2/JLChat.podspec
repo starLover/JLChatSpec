@@ -136,8 +136,8 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.user_target_xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
-  spec.static_framework = true
+  # spec.user_target_xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
+  # spec.static_framework = true
 
   spec.dependency "AMap2DMap"
   spec.dependency "AMapSearch"
