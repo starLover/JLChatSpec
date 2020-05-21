@@ -139,7 +139,7 @@ Pod::Spec.new do |spec|
   # spec.user_target_xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   # spec.static_framework = true
 
-  spec.ios.dependency "AMap2DMap"
+  spec.ios.dependency "AMap3DMap"
   spec.ios.dependency "AMapSearch"
   spec.ios.dependency "SDWebImage"
   spec.ios.dependency "FLAnimatedImage"
