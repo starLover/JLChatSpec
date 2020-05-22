@@ -106,11 +106,14 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # spec.resources  = "JLChat.framework/JLChat.bundle"
+  spec.resources  = "JLChat.framework/JLChat.bundle"
   # spec.resources = ['JLChat/*.png']
-  spec.resource_bundles = {
-    'JLChat' => ['JLChat.framework/JLChat.bundle/*/*png', 'JLChat.framework/JLChat.bundle/*lproj']
-  }
+  # spec.resource_bundles = {
+  #   'JLChat' => ['JLChat.framework/JLChat.bundle']
+  # }
+  # spec.resource_bundles = {
+  #   'JLChat' => ['JLChat.framework/JLChat.bundle/*/*png', 'JLChat.framework/JLChat.bundle/*lproj']
+  # }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
