@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JLChat"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "The framework of JLChat is for people to integrate the chatting in the project easily."
 
   # This description is used to generate tags and improve search results.
@@ -106,11 +106,11 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resources  = "JLChat.framework/JLChat.bundle"
+  # spec.resources  = "JLChat.framework/JLChat.bundle"
   # spec.resources = ['JLChat/*.png']
-  # spec.resource_bundles = {
-  #   'JLChat' => ['JLChat.framework/JLChat.bundle/*/*png', 'JLChat.framework/JLChat.bundle/*lproj']
-  # }
+  spec.resource_bundles = {
+    'JLChat' => ['JLChat.framework/JLChat.bundle/*/*png', 'JLChat.framework/JLChat.bundle/*lproj']
+  }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
