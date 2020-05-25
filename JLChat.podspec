@@ -1,10 +1,5 @@
-#
-#  Be sure to run `pod spec lint JLChat.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |spec|
 
@@ -17,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JLChat"
   spec.version      = "0.0.7"
-  spec.summary      = "A easy chat framework."
+  spec.summary      = "A easy chat framework to use."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -69,31 +64,15 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "8.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
-
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
-  #
+
 
   spec.source       = { :git => "https://github.com/starLover/JLChatFramework.git", :tag => "v#{spec.version}" }
 
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  # spec.source_files  = "JLChat.framework/Headers/*.{h}"
-  # spec.source_files = "Classes/**/*"
-  # spec.exclude_files = "Classes/Exclude"
   spec.vendored_frameworks = 'JLChat.framework'
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -120,7 +99,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  # spec.framework  = "Foundation"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
