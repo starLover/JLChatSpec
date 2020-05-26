@@ -131,6 +131,8 @@ Pod::Spec.new do |spec|
   spec.ios.dependency "Socket.IO-Client-Swift"
   spec.ios.dependency "AFNetworking"
   spec.ios.dependency "FMDB"
-
+  spec.ios.dependency 'ZFPlayer', '~> 3.0'
+  spec.ios.dependency 'ZFPlayer/AVPlayer', '~> 3.0'
+  spec.ios.dependency 'ZFPlayer/ControlView', '~> 3.0'
 
 end
