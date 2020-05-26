@@ -1,7 +1,7 @@
 {
   "name": "JLChat",
   "version": "0.0.7",
-  "summary": "A easy chat framework to use.",
+  "summary": "A easy chat framework.",
   "description": "The framework of JLChat is for people to integrate the chatting in the project easily.",
   "homepage": "https://github.com/starLover/JLChatSpec",
   "license": "MIT (LICENSE)",
