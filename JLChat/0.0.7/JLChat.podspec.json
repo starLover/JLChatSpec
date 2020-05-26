@@ -57,6 +57,15 @@
       ],
       "FMDB": [
 
+      ],
+      "ZFPlayer": [
+        "~> 3.0"
+      ],
+      "ZFPlayer/AVPlayer": [
+        "~> 3.0"
+      ],
+      "ZFPlayer/ControlView": [
+        "~> 3.0"
       ]
     }
   }
