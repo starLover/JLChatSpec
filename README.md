@@ -1,7 +1,7 @@
 # A easy chat framework!
-## try it!
 
 ## Requirements
+ iOS 9.0
 
 ## Installation
 
