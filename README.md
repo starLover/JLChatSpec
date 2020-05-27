@@ -15,7 +15,7 @@ source 'https://github.com/starLover/JLChatSpec.git'
 
 platform :ios, '9.0'
 
-pod 'JLChatSDK'
+pod 'JLChat'
 ```
 
 ## Author
@@ -24,4 +24,4 @@ starLover, 1498146887@qq.com
 
 ## License
 
-JLChatSDK is available under the MIT license. See the LICENSE file for more info.
+JLChat is available under the MIT license. See the LICENSE file for more info.
