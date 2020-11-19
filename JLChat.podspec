@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  The framework of JLChat is for people to integrate the chatting in the project easily.
+  The framework of JLChat is for people to integrate the chatting in the project easily, enjoy it now!
                    DESC
 
   spec.homepage     = "https://github.com/starLover/JLChatSpec"
