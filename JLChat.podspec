@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JLChat"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "A easy chat framework to use."
 
   # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  The framework of JLChat is for people to integrate the chatting in the project easily, enjoy it now!
+  The framework of JLChat is for people to integrate the chatting in the project easil, try it now!
                    DESC
 
   spec.homepage     = "https://github.com/starLover/JLChatSpec"
