@@ -1,0 +1,72 @@
+{
+  "name": "JLChat",
+  "version": "0.2.2",
+  "summary": "A easy chat framework to use.",
+  "description": "The framework of JLChat is for people to integrate the chatting in the project easil, try it now!",
+  "homepage": "https://github.com/starLover/JLChatSpec",
+  "license": "MIT (LICENSE)",
+  "authors": {
+    "starLover": "1498146887@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/starLover/JLChatFramework.git",
+    "tag": "v0.2.2"
+  },
+  "vendored_frameworks": "JLChat.framework",
+  "resources": "JLChat.framework/JLChat.bundle",
+  "ios": {
+    "dependencies": {
+      "AMap3DMap": [
+
+      ],
+      "AMapSearch": [
+
+      ],
+      "SDWebImage": [
+
+      ],
+      "FLAnimatedImage": [
+
+      ],
+      "Masonry": [
+
+      ],
+      "MJExtension": [
+
+      ],
+      "MJRefresh": [
+
+      ],
+      "SVProgressHUD": [
+
+      ],
+      "GoogleMaps": [
+
+      ],
+      "GoogleWebRTC": [
+
+      ],
+      "Socket.IO-Client-Swift": [
+
+      ],
+      "AFNetworking": [
+
+      ],
+      "FMDB": [
+
+      ],
+      "ZFPlayer": [
+        "~> 3.0"
+      ],
+      "ZFPlayer/AVPlayer": [
+        "~> 3.0"
+      ],
+      "ZFPlayer/ControlView": [
+        "~> 3.0"
+      ]
+    }
+  }
+}
