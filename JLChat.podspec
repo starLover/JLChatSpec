@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JLChat"
-  spec.version      = "0.1.8"
+  spec.version      = "0.1.9"
   spec.summary      = "A easy chat framework to use."
 
   # This description is used to generate tags and improve search results.
